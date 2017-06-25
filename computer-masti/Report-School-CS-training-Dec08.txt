@@ -1,0 +1,50 @@
+===================================================================
+Report on Computer Teacher Training for Primary Schools
+
+Held on: 13th and 14th of December 2008; 
+Venue: IIT Bombay; 
+Total Participants: 30
+===================================================================
+The participants were from different schools and backgrounds: There
+were 2 each from SSRVM Mulund, Borivali and Dharavi. 3 from SSRVM
+Ahmedabad, Others were from Kendriya Vidyalaya and NGOs working with
+children or under-privileged groups. 4 of them were already teaching
+computers in SSRVM. Many were subject teachers with little exposure to
+computers. No fees were charged.
+
+The workshop began with questions like “What is the function of a
+teacher?”, What would you like to see in children at the end of your
+teaching?” which made the participants think about their role as
+teachers.
+
+The classroom sessions included topics like: Five aspects of education
+and applying them to teaching, the SSRVM methodology, pros and cons of
+teaching computers, lesson planning, presenting of computer lessons by
+the participants, managing the classroom, health aspects of computers,
+etc. In between the sessions, the participants played many different
+games and did pranayama to stay fresh during the sessions. 
+
+There were 4 lab sessions, giving the participants a hands-on experience
+of activities from the computer masti books. The first day was devoted
+to 1st and 2nd std activities, the next day was 3rd and 4th std. It is
+important for teachers to do each activity themselves, before asking
+children to do it. 
+
+A session of installation of Ubuntu (Linux) on Windows was done, so that
+the participants feel confident about doing installation of software on
+the computers. Also a programming session using SCRATCH, where they were
+given the basic programming concepts like step-wise thinking. 
+
+At the end of the workshop, many of the participants said they were
+happy to have got rid of their fear of computers. Some sample feedback
+comments are: 
+* Lesson plan sharing very interesting and we learned a lot of new things.
+* Learning through games. It was student's oriented class rather than teacher oriented.
+* Discussing about the qualities of a teacher helped us to correct our mistakes.
+* The examples and activities gave us new ideas to improve in our field.
+* GCompris, Tuxpaint and other activities will be beneficial for the children.
+* More sessions on hands-on activities are required.
+														            
+** The hospitality and course material expenses of the workshop was supported by Project TICET, IIT Bombay.
+	The participants had to bear the cost of their own travel.
+===================================================================
