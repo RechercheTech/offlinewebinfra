@@ -1,7 +1,5 @@
 #!/bin/bash
 
-for i in `ls htmls`; do cat "htmls/$i" >> index.html; done
-
 usage() {
 		printf "\n Usage : $0 --docl10n <lang_code> <lang_string>\n"
 		printf "\n lang_code - ISO 639-1 code for the additional language desired. Don't use this option if only English is desired."
@@ -21,8 +19,14 @@ then
 				usage
 				exit
 			fi
-			
-			sed -i -e 's@<a href="manual/mss-doc-latest/index.html" target="_blank">English</a>\&nbsp;\&nbsp;\&nbsp;<a href="manual/mss-doc-hi-latest/index.html" target="_blank">Hindi</a>@&\&nbsp;\&nbsp;\&nbsp;<a href="manual/mss-doc-'"$2"'-latest/index.html" target="_blank"></i>'"$3"'</a>@g' index.html
+		
+                        langdir=/var/www/html/mss/manual/mss-doc-$2-latest/
+
+                        if [ ! -d $langdir ]
+                        then
+                        sed -i -e 's@<a href="manual/mss-doc-latest/index.html" target="_blank">English</a>\&nbsp;\&nbsp;\&nbsp;<a href="manual/mss-doc-hi-latest/index.html" target="_blank">Hindi</a>@&\&nbsp;\&nbsp;\&nbsp;<a href="manual/mss-doc-'"$2"'-latest/index.html" target="_blank">'"$3"'</a>@g' index.html
+                        sed -i -e 's@<a href="manual/mss-doc-latest/index.html" target="_blank">English</a>\&nbsp;\&nbsp;\&nbsp;<a href="manual/mss-doc-hi-latest/index.html" target="_blank">Hindi</a>@&\&nbsp;\&nbsp;\&nbsp;<a href="manual/mss-doc-'"$2"'-latest/index.html" target="_blank">'"$3"'</a>@g' /var/www/html/mss/indexer/htmls/90-mss-manual.html
+                        fi	
 			;;
 
 	*) 	printf  "\n Invalid option. \n"
@@ -34,5 +38,8 @@ then
 	
 fi
 
+for i in `ls htmls`; do cat "htmls/$i" >> index.html; done
+
 cp ../index.html index.html.`date +"%Y%m%d_%H%M%S"`
 mv index.html ../
+/usr/bin/mssipchange
