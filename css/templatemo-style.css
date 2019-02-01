@@ -441,6 +441,7 @@ h5 {
     width: 100%;
     background: rgba(0,0,0,0.9);
     padding: 15px 20px;
+    text-align:center;
 }
 
 .post-masonry .post-thumb .title-over h4 {
